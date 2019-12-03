@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Landing Page Test",
+        "description": "",
+        "id": "freecrm-application-testing;landing-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10790251766,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in landing page",
+            "match": {
+              "location": "POMStepDefinition.user_in_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54261267,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title is Free Crm",
+            "match": {
+              "location": "POMStepDefinition.title_is_Free_Crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16563708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate current url",
+            "match": {
+              "location": "POMStepDefinition.validate_current_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80172245,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the login button",
+            "match": {
+              "location": "POMStepDefinition.validate_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38209314,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the sign up button",
+            "match": {
+              "location": "POMStepDefinition.validate_the_sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2810006021,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on login button",
+            "match": {
+              "location": "POMStepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1098577696,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "closes the browser",
+            "match": {
+              "location": "POMStepDefinition.closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login page test",
+        "description": "",
+        "id": "freecrm-application-testing;login-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17613015702,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user in login page",
+            "match": {
+              "location": "POMStepDefinition.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11555876926,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters email and password",
+            "match": {
+              "location": "POMStepDefinition.user_enters_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17444095,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is in homepage",
+            "match": {
+              "location": "POMStepDefinition.user_is_in_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43417224,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify username",
+            "match": {
+              "location": "POMStepDefinition.verify_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1413929047,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the browser",
+            "match": {
+              "location": "POMStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCrm Application testing",
+    "description": "",
+    "id": "freecrm-application-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberPOM/src/main/java/com/qa/feature/pom.feature"
+  }
+]
