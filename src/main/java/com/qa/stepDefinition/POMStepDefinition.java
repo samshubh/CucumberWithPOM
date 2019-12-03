@@ -1,12 +1,14 @@
 package com.qa.stepDefinition;
 
 import java.io.IOException;
+import java.util.Map;
 
 import com.qa.pages.HomePage;
 import com.qa.pages.LandingPage;
 import com.qa.pages.LoginPage;
 import com.qa.testBase.TestBasePOM;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -117,6 +119,52 @@ public class POMStepDefinition extends TestBasePOM {
 
 	@Then("^close the browser$")
 	public void close_the_browser() {
+	    
+		driver.quit();
+	}
+
+    
+	@Given("^user in homepage$")
+	public void user_in_homepage() throws InterruptedException, IOException {
+	    
+		TestBasePOM.intialization();
+		
+		landingpage = new LandingPage();
+		
+		landingpage.loginClick();
+		
+		loginpage = new LoginPage();
+		
+		homepage = new HomePage();
+		
+		
+		homepage = loginpage.login(prop.getProperty("email"), prop.getProperty("password"));
+	
+		
+		
+	}
+
+	@Then("^click on contact link$")
+	public void click_on_contact_link() throws InterruptedException  {
+		
+		homepage.validateContactLink();
+	    
+	}
+
+	@Then("^click on add contact$")
+	public void click_on_add_contact() throws InterruptedException {
+	   
+		homepage.validateAddNewButton();
+	}
+
+	@Then("^enters firstname and lastname$")
+	public void enters_firstname_and_lastname() throws InterruptedException  {
+	    
+		homepage.sendDetails(prop.getProperty("firstname"), prop.getProperty("lastname"));
+	}
+
+	@Then("^closing the browser$")
+	public void closing_the_browser(){
 	    
 		driver.quit();
 	}

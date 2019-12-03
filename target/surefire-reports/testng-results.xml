@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Test NG Report" duration-ms="85730" started-at="2019-12-03T16:17:14 IST" finished-at="2019-12-03T16:18:40 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="PomRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runnerType.PomRunner@5c072e3f]" name="feature" class="com.qa.runnerType.PomRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Free CRM TestNG" duration-ms="85730" started-at="2019-12-03T16:17:14 IST" finished-at="2019-12-03T16:18:40 IST">
+      <class name="com.qa.runnerType.PomRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runnerType.PomRunner@5c072e3f]" name="setUpClass" is-config="true" duration-ms="161" started-at="2019-12-03T16:17:14 IST" finished-at="2019-12-03T16:17:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runnerType.PomRunner@5c072e3f]" name="feature" duration-ms="85398" started-at="2019-12-03T16:17:14 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-03T16:18:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FreeCrm Application testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runnerType.PomRunner@5c072e3f]" name="tearDownClass" is-config="true" duration-ms="53" started-at="2019-12-03T16:18:40 IST" finished-at="2019-12-03T16:18:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runnerType.PomRunner -->
+    </test> <!-- Free CRM TestNG -->
+  </suite> <!-- Cucumber Test NG Report -->
+</testng-results>

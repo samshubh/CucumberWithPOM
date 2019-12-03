@@ -25,9 +25,4 @@ Given user in homepage
 Then click on contact link
 Then click on add contact 
 Then enters firstname and lastname
-
-|firstname|lastname|
-|ramakrishna|kuruva|
-
-Then click on save button
-Then close the browser
+Then closing the browser

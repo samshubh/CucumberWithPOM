@@ -1,0 +1,7 @@
+com\qa\pages\LoginPage.class
+com\qa\runnerType\PomRunner.class
+com\qa\pages\HomePage.class
+com\qa\util\PomUtil.class
+com\qa\testBase\TestBasePOM.class
+com\qa\stepDefinition\POMStepDefinition.class
+com\qa\pages\LandingPage.class

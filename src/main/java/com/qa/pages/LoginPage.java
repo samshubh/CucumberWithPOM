@@ -29,7 +29,7 @@ public class LoginPage extends TestBasePOM {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public HomePage login(String un,String pwd) throws InterruptedException
+	public HomePage login(String un,String pwd) throws InterruptedException, IOException
 	{
 		email.sendKeys(un);
 		 Thread.sleep(4000);

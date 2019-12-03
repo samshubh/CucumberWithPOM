@@ -53,49 +53,49 @@ formatter.match({
   "location": "POMStepDefinition.user_in_landing_page()"
 });
 formatter.result({
-  "duration": 10790251766,
+  "duration": 10958340699,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.title_is_Free_Crm()"
 });
 formatter.result({
-  "duration": 54261267,
+  "duration": 67810904,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.validate_current_url()"
 });
 formatter.result({
-  "duration": 16563708,
+  "duration": 6646238,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.validate_the_login_button()"
 });
 formatter.result({
-  "duration": 80172245,
+  "duration": 57095441,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.validate_the_sign_up_button()"
 });
 formatter.result({
-  "duration": 38209314,
+  "duration": 28617998,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.click_on_login_button()"
 });
 formatter.result({
-  "duration": 2810006021,
+  "duration": 3418505748,
   "status": "passed"
 });
 formatter.match({
   "location": "POMStepDefinition.closes_the_browser()"
 });
 formatter.result({
-  "duration": 1098577696,
+  "duration": 1423171685,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,37 +133,4 @@ formatter.step({
 });
 formatter.match({
   "location": "POMStepDefinition.user_in_login_page()"
-});
-formatter.result({
-  "duration": 17613015702,
-  "status": "passed"
-});
-formatter.match({
-  "location": "POMStepDefinition.user_enters_email_and_password()"
-});
-formatter.result({
-  "duration": 11555876926,
-  "status": "passed"
-});
-formatter.match({
-  "location": "POMStepDefinition.user_is_in_homepage()"
-});
-formatter.result({
-  "duration": 17444095,
-  "status": "passed"
-});
-formatter.match({
-  "location": "POMStepDefinition.verify_username()"
-});
-formatter.result({
-  "duration": 43417224,
-  "status": "passed"
-});
-formatter.match({
-  "location": "POMStepDefinition.close_the_browser()"
-});
-formatter.result({
-  "duration": 1413929047,
-  "status": "passed"
-});
 });
